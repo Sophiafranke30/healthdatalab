@@ -1,32 +1,67 @@
-# Análisis de Datos Biomédicos (BE3006)
+# Health Data Lab
 
-Curso de 4º año de Ingeniería Biomédica – UVG  
-Docente: Miguel Godoy  
-Modalidad: Presencial + Laboratorio Colaborativo en GitHub
+## BE3006: Análisis de Datos Biomédicos - Ciclo 1, 2026 🏥📊
 
-## Descripción
-Este curso introduce el análisis de datos biomédicos desde la perspectiva del
-**Real-World Data (RWD)**, siguiendo el ciclo completo del dato clínico:
-patient journey → fuentes → interoperabilidad → análisis → decisión clínica.
+Bienvenido a la organización de GitHub para el curso **BE3006** de la Universidad del Valle de Guatemala. Este espacio está diseñado para centralizar el aprendizaje práctico y el desarrollo del proyecto integrador, centrado en una pregunta fundamental: **¿Cómo hacer que los datos acompañen decisiones clínicas reales a lo largo del trayecto del paciente (_Patient Journey_)?**.
 
-El curso se organiza como un **laboratorio vivo**, donde los estudiantes
-investigan, discuten y construyen artefactos reales (código, notebooks,
-documentación) en GitHub.
+## 🌟 Visión del Curso
 
-## Estructura
-- Clases teóricas (miércoles)
-- Laboratorio práctico (jueves)
-- Proyecto integrador por equipos
-- Repositorio central + repositorios de proyectos
+El objetivo central es **convertir observaciones clínicas en datos sistémicos, reutilizables y comparables** para mejorar la toma de decisiones. Acompañaremos al paciente desde su primer síntoma hasta el análisis de sus resultados poblacionales, optimizando el ciclo: **Observar → Medir → Analizar**.
 
-## Material base
-- *Hands-On Healthcare Data* – Andrew Nguyen
-- Ejercicios basados en Synthea y datos simulados
+## 🛠️ Stack Tecnológico
 
-## Enlaces clave
-- 📚 Laboratorio central (privado): *se comparte en clase*
-- 🧪 Repositorios de proyectos: *por equipo*
-- 💬 Discusión y anuncios: GitHub Discussions
+Para "domar la complejidad de los datos de salud", utilizaremos herramientas estándar de la industria:
 
-## Cronograma
-Ver programa oficial del curso.
+- **Infraestructura:** Docker & Docker Compose (para entornos reproducibles de grado regulatorio).
+- **Base de Datos:** PostgreSQL & SQL (Modelado relacional y OMOP).
+- **Lenguajes:** Python (pandas, numpy, matplotlib, scikit-learn).
+- **Entornos:** Jupyter Notebooks para análisis exploratorio (EDA).
+- **Visualización:** Grafana para dashboards operativos.
+- **Imágenes:** Procesamiento de metadatos y datos DICOM.
+
+---
+
+## 🧪 Laboratorios
+
+Los 8 laboratorios están diseñados para construir, pieza a pieza, las capacidades necesarias para el proyecto final.
+
+| Lab    | Título                    | Competencia        | Herramienta Clave         |
+| :----- | :------------------------ | :----------------- | :------------------------ |
+| **L1** | **Setup del Entorno**     | Gobernanza         | Docker + Git              |
+| **L2** | **Captura en el EHR**     | Modelos de Datos   | PostgreSQL (MIMIC-III)    |
+| **L3** | **Semántica Clínica**     | Estándares         | ICD-10, SNOMED CT         |
+| **L4** | **Armonización de Datos** | Interoperabilidad  | RxNorm + UMLS API         |
+| **L5** | **Curación de Datos RWD** | Preparación        | Python (Data Cleaning)    |
+| **L6** | **Imágenes como Datos**   | Señales            | DICOM + Matplotlib        |
+| **L7** | **Visual Analytics**      | Toma de Decisiones | Grafana Dashboard         |
+| **L8** | **Predicción Clínica**    | Machine Learning   | Scikit-learn (Sepsis/AKI) |
+
+---
+
+## 📈 Metodología de Trabajo
+
+Este repositorio sigue una metodología de **Aprendizaje basado en proyectos e investigación**:
+
+1.  **Exploración (Issues):** Identificación de problemas de calidad de datos y discrepancias semánticas.
+2.  **Discusión (Discussions):** Debate sobre dilemas éticos, privacidad (GDPR/HIPAA) y gobernanza.
+3.  **Colaboración (Pull Requests):** Entrega de laboratorios mediante revisiones de código cruzadas para asegurar la **reproducibilidad**.
+4.  **Wiki:**
+
+## 📂 Estructura del Repositorio
+
+- `/labs`: Enunciados y archivos base para las 8 prácticas.
+- `/resources`: Lecturas complementarias de _Fundamentals of Clinical Data Science_ y _Machine Learning in Medicine_.
+- `/project-template`: Estructura sugerida para el producto de datos final (40% de la nota).
+
+---
+
+## 📚 Bibliografía Guía
+
+- **Nguyen, A.** (2022). _Hands-On Healthcare Data_. O’Reilly Media..
+- **Kubben, P., et al.** (2019). _Fundamentals of Clinical Data Science_. Springer..
+- **Cleophas, T. J., & Zwinderman, A. H.** (2015). _Machine Learning in Medicine_. Springer..
+
+---
+
+**Docente:** M.Sc. Miguel Godoy – [mgodoy@uvg.edu.gt](mailto:mgodoy@uvg.edu.gt).
+**UVG - 2026** | _Espacio de exploración y creación en conjunto_.
