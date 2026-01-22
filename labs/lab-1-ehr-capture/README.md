@@ -431,6 +431,7 @@ INSERT INTO labevents (hadm_id, labitem_id, charttime, value_num) VALUES
 
 Vuelve a ejecutar el archivo SQL.
 
+```mermaid
 erDiagram
 PATIENTS ||--o{ ADMISSIONS : has
 ADMISSIONS ||--o{ DIAGNOSES : includes
@@ -473,6 +474,7 @@ D_LABITEMS ||--o{ LABEVENTS : defines
         datetime charttime
         numeric value_num
     }
+```
 
 ---
 
